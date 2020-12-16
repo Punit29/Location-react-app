@@ -32,7 +32,7 @@ const Demo = () => {
                                     <ul className="list-group">
                                         <li className="list-group-item">
                                             Location :{" "}
-                                            {`${details.city}, ${details.country_name}(${details.country_code})`}
+                                            {`${details.state}, ${details.country_name}(${details.country_code})`}
                                         </li>
                                         <li className="list-group-item">
                                             IP: {details.IPv4}
